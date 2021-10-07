@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "pattern": "karthikproject/",
+      "target": "libs-snapshot-local",
+      "regexp": "true",
+      "exclusions": [".*.zip"]
+    }
+  ]
+}
