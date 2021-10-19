@@ -56,8 +56,6 @@ currentBuild.displayName = "Project-"+currentBuild.number
         }
         
        } 
-        
-    }
 }
 
 /*
