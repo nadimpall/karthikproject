@@ -61,7 +61,7 @@ currentBuild.displayName = "Project-"+currentBuild.number
 /*
 post {
     always {
-       mail bcc: '', body: '${details}', cc: '', from: 'nkarthik206@gmail.com', replyTo: '', subject: 'Build', to: 'nkarthik206@gmail.com'
+       mail bcc: '', body: '${details}', cc: '', from: 'nkarthik206@gmail.com', replyTo: '', subject: 'Build', to: 'nkarthik206@gmail.com' //added data
     }
 }
 }
