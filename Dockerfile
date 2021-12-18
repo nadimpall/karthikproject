@@ -4,7 +4,7 @@ MAINTAINER karthik
 
 WORKDIR /usr/local/tomcat
 
-COPY C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\DockerEnvironment\target\spring-mvc-example.war /usr/local/tomcat/webapps/
+COPY **/*.war /usr/local/tomcat/webapps/
 
 # To Expose port in the container
 EXPOSE 2345
